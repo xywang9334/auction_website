@@ -1,0 +1,146 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+nav {
+    width: 100%;
+    margin: 20px 0;
+    float: left;
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* float left */
+nav ul li {
+    width: 20%;
+    float: left;
+}
+
+nav ul li a {
+    text-align: center;
+    padding: 8px 0;
+    display: block;
+    width: 100%;
+    background: linear-gradient(to bottom, #cdeb8e 0%,#b0ca34 100%);
+}
+
+nav ul li a:hover {
+    background: linear-gradient(to bottom, #b0ca34 0%,#96c40d 100%);
+}
+
+nav ul li a,
+nav ul li a:focus,
+nav ul li a:visited,
+nav ul li a:hover,
+nav ul li a:active {
+    color: #000;
+    text-decoration: none;
+}
+nav ul li:first-child a {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+nav ul li:last-child a {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.head_only {
+    padding: 10px;
+}
+
+section {
+    padding: 10px;
+}
+
+.alert-box {
+    color: #555;
+    margin: 10px;
+    text-align: left;
+}
+
+.search {
+    padding: 30px;
+}
+
+.foot {
+    text-align: center;
+}
+
+
+.position-adjust {
+    width: 400px;
+}
+
+#middle {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-50px; /* this is half the height of your div*/
+    margin-left:-100px; /*this is half of width of your div*/
+}
+.big-box {
+    width: 400px;
+    height: 100px;
+}
+
+.big-input {
+    width: 400px;
+    min-height:15px;
+    font-size: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+fieldset {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+
+/* box */
+#footer {
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    border: 1px;
+    padding: 1px;
+    margin: 1px;
+}
+
+.TangerineFont {
+    font-family: Tangerine, serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+/* float left */
+.radio-left {
+    float: left;
+}
+/* float right */
+.radio-right {
+    float: right;
+}
+
+
+.border-right {
+    border-right: 1px solid black;
+}
+
+
+.table td {
+    text-align: center;
+}
